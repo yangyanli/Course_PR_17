@@ -3,10 +3,9 @@ Pattern Recognition Course 2017
 
 ## Slides
 
-### Introduction
+### [Introduction](slides/Introduction.pdf)
 
-### Clustering
-* [Part One](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
+### Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 
 ## Candidate Papers for Presentation
 
