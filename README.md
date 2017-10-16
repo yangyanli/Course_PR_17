@@ -7,3 +7,7 @@ Pattern Recognition Course 2017
 [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/)
 
 [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
+
+#分组成员:
+卓凤 黎佩华 蒋思淇 陈思蓓
+
