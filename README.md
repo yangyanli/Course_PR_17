@@ -1,12 +1,20 @@
 # Course_PR_17
 Pattern Recognition Course 2017
 
+## Slides
+
+### Introduction
+
+### Clustering
+* [Part One](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
+
 ## Candidate Papers for Presentation
 
 ### Clustering
 
 * [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/)
 * [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
+* [Object Category Structure in Response Patterns of Neuronal Population in Monkey Inferior Temporal Cortex](http://www.cns.nyu.edu/kianilab/papers/Kiani_Esteky_Mirpour_Tanaka_2007.pdf)
 
 ## Grouping Information
 
