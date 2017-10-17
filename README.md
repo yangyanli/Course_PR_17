@@ -51,3 +51,11 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 * 朱丽 
 * 张伊楠
 
+
+### Group
+
+* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希
+* 苏越
+* 肖俊伦
+* 杜孟君
