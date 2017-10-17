@@ -11,11 +11,12 @@ Pattern Recognition Course 2017
 
 ### Clustering
 
-* [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/)
-* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
-* [Object Category Structure in Response Patterns of Neuronal Population in Monkey Inferior Temporal Cortex](http://www.cns.nyu.edu/kianilab/papers/Kiani_Esteky_Mirpour_Tanaka_2007.pdf)
+[Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
+
 
 ## Grouping Information
+
+
 
 ### Group 0 (POW48)
 
@@ -25,3 +26,15 @@ Pattern Recognition Course 2017
 * 田翰林 ([@zachtian1010](https://github.com/zachtian1010))
 * 王天浩 ([@moeinfinityx](https://github.com/moeinfinityx))
 * 赵跃 ([@z-jack](https://github.com/z-jack))
+
+
+###
+
+|组员|
+|-|
+|丰叶|
+|吴梦涵|
+|	陈安东	|
+|	崔思伟	|
+|	袁冠宇	|
+|	孔世伟	|
