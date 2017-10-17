@@ -60,7 +60,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 | 符豫   |
 | 马金超  |
 
-###Group 4
+### Group 4
 * 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
 * 蒋思淇 ([@JSIQI](https://github.com/JSIQI))
 * 黎佩华 ([@2464599943](https://github.com/2464599943))
