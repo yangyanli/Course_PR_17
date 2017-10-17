@@ -51,3 +51,15 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 * 朱丽 
 * 张伊楠
 
+### Group 3
+
+|组员|
+|-|
+|闫心愿|
+|槐硕|
+|符豫	|
+|马金超|
+=======
+
+
+
