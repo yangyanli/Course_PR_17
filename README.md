@@ -53,13 +53,26 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 
 ### Group 3
 
-|组员|
-|-|
-|闫心愿|
-|槐硕|
-|符豫	|
-|马金超|
-=======
+| 组员   |
+| ---- |
+| 闫心愿  |
+| 槐硕   |
+| 符豫   |
+| 马金超  |
+###Group 4
+* 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
+* 蒋思淇 ([@JSIQI](https://github.com/JSIQI))
+* 黎佩华 ([@2464599943](https://github.com/2464599943))
+* 卓凤 ([@misszhua](https://github.com/misszhua))
 
+### Group 5
 
+**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然
 
+### Group 6
+
+* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希
+* 苏越
+* 肖俊伦
+* 杜孟君
