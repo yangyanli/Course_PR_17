@@ -48,3 +48,11 @@ Pattern Recognition Course 2017
 * 朱丽 
 * 张伊楠
 
+
+### Group
+
+* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希
+* 苏越
+* 肖俊伦
+* 杜孟君
