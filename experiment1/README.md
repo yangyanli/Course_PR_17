@@ -8,7 +8,7 @@ In this experiment, you need to cluster the datas with your own code.
 
 * Dataset 1 
 
-  The dataset 1 is a synthetic data from [https://cs.joensuu.fi/sipu/datasets/](https://cs.joensuu.fi/sipu/datasets/) and we mix them to one set. You can find the file in "./data/" folder. 
+  The dataset 1 is a synthetic data from [https://cs.joensuu.fi/sipu/datasets/](https://cs.joensuu.fi/sipu/datasets/) , including 3 basic sets and a mix set. You can find the file in "./data/synthetic_data/" folder. For these basic sets, you can get the accuracy of your own algorithm, and for mix set, the rubustness of your code is what we most care about.
 
   The expected input file format is a comma separated file, where each row represents a different multi-dimensional data point. If ground truth is provided (and the --no-labels flag isn't specified), the ground truth labels should be placed in the last column of each row.
 

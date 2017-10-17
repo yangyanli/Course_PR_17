@@ -3,20 +3,23 @@ Pattern Recognition Course 2017
 
 ## Slides
 
-### [Introduction](slides/Introduction.pdf)
+[Introduction](slides/Introduction.pdf)
 
-### Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
+Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 
 ## Candidate Papers for Presentation
 
 ### Clustering
 
-[Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
+* [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/)
+* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
+* [Object Category Structure in Response Patterns of Neuronal Population in Monkey Inferior Temporal Cortex](http://www.cns.nyu.edu/kianilab/papers/Kiani_Esteky_Mirpour_Tanaka_2007.pdf)
 
+## Experiments
+
+* [Experiment1](https://github.com/yangyanli/Course_PR_17/tree/master/experiment1) - Clustering
 
 ## Grouping Information
-
-
 
 ### Group 0 (POW48)
 
@@ -28,18 +31,18 @@ Pattern Recognition Course 2017
 * 赵跃 ([@z-jack](https://github.com/z-jack))
 
 
-###
+### Group 1
 
-|组员|
-|-|
-|丰叶|
-|吴梦涵|
-|	陈安东	|
-|	崔思伟	|
-|	袁冠宇	|
-|	孔世伟	|
+| 组员   |
+| ---- |
+| 丰叶   |
+| 吴梦涵  |
+| 陈安东  |
+| 崔思伟  |
+| 袁冠宇  |
+| 孔世伟  |
 
-### Group
+### Group 2
 
 * 刘中坤 
 * 晁大任 
