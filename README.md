@@ -8,6 +8,9 @@ Pattern Recognition Course 2017
 
 [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869)
 
-#分组成员:
-卓凤 黎佩华 蒋思淇 陈思蓓
 
+
+* 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
+* 蒋思淇 ([@JSIQI](https://github.com/JSIQI))
+* 黎佩华 ([@2464599943](https://github.com/2464599943))
+* 卓凤 ([@misszhua](https://github.com/))
