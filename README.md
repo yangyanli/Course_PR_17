@@ -1,6 +1,7 @@
 # Course_PR_17
 Pattern Recognition Course 2017
 
+=======
 ## Slides
 
 [Introduction](slides/Introduction.pdf)
@@ -50,4 +51,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 * 张鑫禹
 * 朱丽 
 * 张伊楠
+
+**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然
+
 
