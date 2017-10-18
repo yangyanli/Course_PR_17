@@ -1,4 +1,4 @@
-# Course_PR_17
+ROUP# Course_PR_17
 Pattern Recognition Course 2017
 
 ## Slides
@@ -77,3 +77,10 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 * 苏越
 * 肖俊伦
 * 杜孟君
+
+### Group 7
+
+* 马国荣
+* 李睿豪
+* 韦亦迅
+* 辛高正
