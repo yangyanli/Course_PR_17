@@ -12,13 +12,13 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 
 ### Clustering
 
-* [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/) [ppt] - [Group 5](https://github.com/yangyanli/Course_PR_17#group-5) Oct.23 
-* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869) [ppt] - [Group 6](https://github.com/yangyanli/Course_PR_17#group-6) Oct.23
+* [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/) [slide] - [Group 5](https://github.com/yangyanli/Course_PR_17#group-5) Oct.23 
+* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869) [slide] - [Group 6](https://github.com/yangyanli/Course_PR_17#group-6) Oct.23
 * [Object Category Structure in Response Patterns of Neuronal Population in Monkey Inferior Temporal Cortex](http://www.cns.nyu.edu/kianilab/papers/Kiani_Esteky_Mirpour_Tanaka_2007.pdf)
 
 ### Other
 
-* [An Implementation of the Mean Shift Filter on FPGA](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) [ppt] - [Group 7](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) Oct.23  
+* [An Implementation of the Mean Shift Filter on FPGA](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) [slide] - [Group 7](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) Oct.23  
 
 ## Experiments
 
