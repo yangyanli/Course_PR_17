@@ -64,6 +64,8 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 | 槐硕   |
 | 符豫   |
 | 马金超  |
+| 杜高源  |
+| 陈尔亮  |
 
 ### Group 4
 * 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
