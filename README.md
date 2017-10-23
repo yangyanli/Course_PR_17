@@ -13,7 +13,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf)
 ### Clustering
 
 * [Robust Continuous Clustering](http://vladlen.info/publications/robust-continuous-clustering/) [slide] - [Group 5](https://github.com/yangyanli/Course_PR_17#group-5) Oct.23 
-* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869) [slide] - [Group 6](https://github.com/yangyanli/Course_PR_17#group-6) Oct.23
+* [Border-Peeling Clustering](https://arxiv.org/abs/1612.04869) [slide](slides/Border_Peeling_Clustering.odp) [code](https://github.com/yeongchingtarn/BorderPeelingClustering) - [Group 6](https://github.com/yangyanli/Course_PR_17#group-6) Oct.23
 * [Object Category Structure in Response Patterns of Neuronal Population in Monkey Inferior Temporal Cortex](http://www.cns.nyu.edu/kianilab/papers/Kiani_Esteky_Mirpour_Tanaka_2007.pdf)
 
 ### Other
