@@ -88,9 +88,9 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 6
 
-* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
-* 孙陈希
-* 苏越
+* 谭永卿 ([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希 ([@scxhhh](https://github.com/scxhhh))
+* 苏越 ([@IvySu](https://github.com/IvySU))
 * 肖俊伦
 * 杜孟君
 
