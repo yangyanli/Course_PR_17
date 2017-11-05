@@ -58,7 +58,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 2
 
-* 刘中坤 
+* 刘中坤 ([@LZKSKY](https://github.com/LZKSKY))
 * 晁大任 
 * 杨浩然 ([@HolenYHR](https://github.com/HolenYHR))
 * 张鑫禹
