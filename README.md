@@ -8,6 +8,13 @@ Pattern Recognition Course 2017
 
 Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://people.csail.mit.edu/dsontag/courses/ml13/slides/lecture16.pdf)
 
+
+## Candidate Course Projects
+
+* Generating Image-based CAPTCHAs Resistant to Deep Learning Attacks
+* Expression-based Image Retrivial
+* Most Promising Image Picking from an Image Sequence
+
 ## Candidate Papers for Presentation
 
 ### Clustering
@@ -51,12 +58,12 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 2
 
-* 刘中坤 
+* 刘中坤 ([@LZKSKY](https://github.com/LZKSKY))
 * 晁大任 
-* 杨浩然
+* 杨浩然 ([@HolenYHR](https://github.com/HolenYHR))
 * 张鑫禹
 * 朱丽 
-* 张伊楠
+* 张伊楠 ([@zhangynnancy](https://github.com/zhangynnancy))
 
 ### Group 3
 
@@ -81,9 +88,9 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 6
 
-* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
-* 孙陈希
-* 苏越
+* 谭永卿 ([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希 ([@scxhhh](https://github.com/scxhhh))
+* 苏越 ([@IvySu](https://github.com/IvySU))
 * 肖俊伦
 * 杜孟君
 

@@ -1,0 +1,6 @@
+[submodule "students/yeongchingtarn/experiment1/k-means-clustering"]
+	path = students/yeongchingtarn/experiment1/k-means-clustering
+	url = https://github.com/yeongchingtarn/k-means-clustering.git
+[submodule "students/chengluyu/experiment1"]
+	path = students/chengluyu/experiment1
+	url = git@github.com:chengluyu/naive-clustering.git
