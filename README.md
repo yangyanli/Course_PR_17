@@ -68,14 +68,13 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 3
 
-| 组员   |
-| ---- |
-| 闫心愿  |
-| 槐硕   |
-| 符豫   |
-| 马金超  |
-| 杜高源  |
-| 陈尔亮  |
+**组员** 
+- [闫心愿](https://github.com/DesirY)
+- [槐硕](https://github.com/night-star)
+- [符豫](https://github.com/YuSymbol)
+- [马金超](https://github.com/HeatedMajin)
+- [杜高源](https://github.com/Hiramdu)
+- [陈尔亮](https://github.com/)
 
 ### Group 4
 * 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
