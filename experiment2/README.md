@@ -24,7 +24,9 @@ Propose a method to extract handwritten numerals from real photos like these:
 
 ![img](https://github.com/MingChaoSun/Course_PR_17/blob/patch-1/experiment2/img/realphoto.jpg)
 
-#### T2: Recognizing The CAPTCHA(Website Verification Code) (Note this experiment is research/study only, do not apply real attack!)
+#### T2: Recognizing The CAPTCHA(Website Verification Code)
+
+* Note this experiment is research/study only, do not apply real attack!
 
 The traditional method of extracting pixel points one by one and template matching, can only recognize simple CAPTCHA.
 
