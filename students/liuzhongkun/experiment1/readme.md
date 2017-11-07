@@ -1,0 +1,9 @@
+pr_ex1_aggression:对aggression数据集用改进的kmeans算法聚类
+
+pr_ex1_flame:对flame数据集用dbscan算法聚类
+
+pr_ex1_r15:对r15数据集用dbscan算法聚类
+
+ex_with_dbscan:对mix数据用dbscan算法聚类
+
+ex_with_dbscan_kmeans:对mix数据用dbscan聚类后再用kmeans修改离群点label
