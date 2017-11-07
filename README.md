@@ -34,7 +34,6 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 * [Experiment1](https://github.com/yangyanli/Course_PR_17/tree/master/experiment1) - Clustering
 * [Experiment2](https://github.com/yangyanli/Course_PR_17/tree/master/experiment2) - Classification
 
-
 ## Grouping Information
 
 ### Group 0 (POW48)
