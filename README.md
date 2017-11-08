@@ -64,7 +64,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 * 晁大任 
 * 杨浩然 ([@HolenYHR](https://github.com/HolenYHR))
 * 张鑫禹
-* 朱丽 
+* 朱丽 ([@Nimonm](https://github.com/Nimonm))
 * 张伊楠 ([@zhangynnancy](https://github.com/zhangynnancy))
 
 ### Group 3
