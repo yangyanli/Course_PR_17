@@ -8,6 +8,13 @@ Pattern Recognition Course 2017
 
 Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://people.csail.mit.edu/dsontag/courses/ml13/slides/lecture16.pdf)
 
+
+## Candidate Course Projects
+
+* Generating Image-based CAPTCHAs Resistant to Deep Learning Attacks
+* Expression-based Image Retrivial
+* Most Promising Image Picking from an Image Sequence
+
 ## Candidate Papers for Presentation
 
 ### Clustering
@@ -25,6 +32,8 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 ## Experiments
 
 * [Experiment1](https://github.com/yangyanli/Course_PR_17/tree/master/experiment1) - Clustering
+* [Experiment2](https://github.com/yangyanli/Course_PR_17/tree/master/experiment2) - Classification
+
 
 ## Grouping Information
 
@@ -51,23 +60,22 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 2
 
-* 刘中坤 
+* 刘中坤 ([@LZKSKY](https://github.com/LZKSKY))
 * 晁大任 
-* 杨浩然
+* 杨浩然 ([@HolenYHR](https://github.com/HolenYHR))
 * 张鑫禹
 * 朱丽 
-* 张伊楠
+* 张伊楠 ([@zhangynnancy](https://github.com/zhangynnancy))
 
 ### Group 3
 
-| 组员   |
-| ---- |
-| 闫心愿  |
-| 槐硕   |
-| 符豫   |
-| 马金超  |
-| 杜高源  |
-| 陈尔亮  |
+**组员** 
+- [闫心愿](https://github.com/DesirY)
+- [槐硕](https://github.com/night-star)
+- [符豫](https://github.com/YuSymbol)
+- [马金超](https://github.com/HeatedMajin)
+- [杜高源](https://github.com/Hiramdu)
+- [陈尔亮](https://github.com/)
 
 ### Group 4
 * 陈思蓓 ([@axzs0987](https://github.com/axzs0987))
@@ -81,10 +89,10 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 6
 
-* 谭永卿([@yeongchingtarn](https://github.com/yeongchingtarn))
-* 孙陈希
-* 苏越
-* 肖俊伦
+* 谭永卿 ([@yeongchingtarn](https://github.com/yeongchingtarn))
+* 孙陈希 ([@scxhhh](https://github.com/scxhhh))
+* 苏越 ([@IvySu](https://github.com/IvySU))
+* 肖俊伦([@thekey-art](https://github.com/thekey-art))
 * 杜孟君
 
 ### Group 7
