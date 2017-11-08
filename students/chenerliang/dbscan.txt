@@ -1,0 +1,5 @@
+library(fpc)
+Mydata<-read.table(file = "C:\\Users\\hp\\Desktop\\mix.txt",header = T,sep=",")
+newiris <- Mydata;
+newiris$type <- NULL;  #对训练数据去掉分类标记
+model <- dbscan(newiris,7,14,scale=T,showplot=T,method="raw")
