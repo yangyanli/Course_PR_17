@@ -4,6 +4,6 @@ net=network.load("model")
 
 t=Login.YJSSpider()
 txt_check=t.getCheckCode(net)
-userid="259150"
-userpwd="201502"
+userid="input your user id"
+userpwd="input you user pwd"
 t.login(userid,userpwd,txt_check)
