@@ -1,6 +1,6 @@
 import Login
-import network2
-net=network2.load("model")
+import network
+net=network.load("model")
 
 t=Login.YJSSpider()
 txt_check=t.getCheckCode(net)
