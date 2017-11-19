@@ -28,6 +28,8 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 * [An Implementation of the Mean Shift Filter on FPGA](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) [slide] - [Group 7](https://www.computer.org/csdl/proceedings/fpl/2011/4529/00/4529a219.pdf) Oct.23
 * [Dynamic Routing between Capsules](https://arxiv.org/abs/1710.09829) [slide] - [Group 4](https://github.com/yangyanli/Course_PR_17#group-4) Nov.13
 * [A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs](http://science.sciencemag.org/content/early/2017/10/26/science.aag2612) [slide] - [Group 3](https://github.com/yangyanli/Course_PR_17#group-5) Nov.13
+* [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
+* [Dropout Training as Adaptive Regularization](https://arxiv.org/abs/1307.1493)
 
 ## Experiments
 
