@@ -87,7 +87,7 @@ Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://p
 
 ### Group 5
 
-**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然
+**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然([@TerryLam1996](https://github.com/TerryLam1996))
 
 ### Group 6
 
