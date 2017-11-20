@@ -8,6 +8,10 @@ Pattern Recognition Course 2017
 
 Clustering: [1](http://www.mit.edu/~9.54/fall14/slides/Class13.pdf) [2](http://people.csail.mit.edu/dsontag/courses/ml13/slides/lecture16.pdf)
 
+Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http://yangyan.li/downloads/Deep%20Learning_2.pptx)
+
+[SVM](http://people.csail.mit.edu/dsontag/courses/ml14/slides/lecture2.pdf)
+
 
 ## Candidate Course Projects
 
