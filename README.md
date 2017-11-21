@@ -18,6 +18,7 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 * Generating Image-based CAPTCHAs Resistant to Deep Learning Attacks
 * Expression-based Image Retrivial
 * Most Promising Image Picking from an Image Sequence
+* Image to Text
 
 ## Candidate Papers for Presentation
 
