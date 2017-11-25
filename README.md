@@ -79,7 +79,7 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 **组员** 
 - [闫心愿](https://github.com/DesirY)
 - [槐硕](https://github.com/night-star)
-- [符豫](https://github.com/YuSymbol)
+- [符豫](https://github.com/YangShaw)
 - [马金超](https://github.com/HeatedMajin)
 - [杜高源](https://github.com/Hiramdu)
 - [陈尔亮](https://github.com/)
