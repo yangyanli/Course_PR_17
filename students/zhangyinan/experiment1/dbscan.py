@@ -19,8 +19,6 @@ def loadDataSet(fileName, splitChar='\t'):
 def eps_neighbor(a, b, eps):
     return (math.sqrt(np.power(a - b, 2).sum())) < eps
 
-
-
 def region_query(data, pointId, eps):
     nPoints = data.shape[1]
     seeds = []
@@ -77,7 +75,7 @@ def plotFeature(data, clusters, clusterNum,datalist):
     fig = plt.figure()
     scatterColors = ['black', 'blue', 'green', 'yellow', 'brown', 'purple', 'orange','red']
     ax = fig.add_subplot(111)
-    for co in range(0,7):
+    for co in range(0,8):
         x=[]
         y=[]
         for i in range(nPoints):
