@@ -4,3 +4,6 @@
 [submodule "students/chengluyu/experiment1"]
 	path = students/chengluyu/experiment1
 	url = git@github.com:chengluyu/naive-clustering.git
+[submodule "students/chengluyu/experiment2"]
+	path = students/chengluyu/experiment2
+	url = git@github.com:chengluyu/naive-digit-recognition.git
