@@ -94,7 +94,7 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 
 ### Group 5
 
-**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然
+**小组成员**：董慧冰，王文杰，陈召峥，马志鑫，林信然([@TerryLam1996](https://github.com/TerryLam1996))
 
 ### Group 6
 
