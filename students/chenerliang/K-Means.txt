@@ -1,0 +1,10 @@
+Mydata<-read.table(file = "C:\\Users\\hp\\Desktop\\mix.txt",header = T,sep=",")
+newiris <- Mydata;
+newiris$type <- NULL;  #对训练数据去掉分类标记
+kc <- kmeans(newiris, 15);  #分类模型训练
+fitted(kc);  #查看具体分类情况
+table(Mydata$type, kc$cluster);  #查看分类概括
+
+#聚类结果可视化 
+plot(newiris[c("x", "y")], col = kc$cluster, pch = as.integer(Mydata$type));  #不同的颜色代表不同的聚类结果，不同的形状代表训练数据集的原始分类情况。
+points(kc$centers[,c("x", "y")], col = 1:15, pch = 8, cex=2);
