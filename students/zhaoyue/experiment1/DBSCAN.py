@@ -66,13 +66,13 @@ def main():
     parr = []
     carr = []
 
-    with open(os.path.join('synthetic_data', 'R15.txt'), 'r') as f:
+    with open(os.path.join('synthetic_data', 'flame.txt'), 'r') as f:
         s = f.readlines()
         for l in s:
             x, y, c = map(lambda x: float(x), l.strip().split(','))
             parr.append((x, y))
             carr.append(c)
-    c = dbscan(np.matrix(parr).transpose(), 0.35, 5)
+    c = dbscan(np.matrix(parr).transpose(), 0.96, 5)
     l = max(c)
     print(l)
     color = [[random.random() for _ in range(3)] for _ in range(l + 1)]

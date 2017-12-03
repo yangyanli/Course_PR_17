@@ -123,7 +123,7 @@ def main():
     parr = []
     carr = []
 
-    with open(os.path.join('synthetic_data', 'Aggregation.txt'), 'r') as f:
+    with open(os.path.join('synthetic_data', 'mix.txt'), 'r') as f:
         s = f.readlines()
         for l in s:
             x, y, c = map(lambda x: float(x), l.strip().split(','))

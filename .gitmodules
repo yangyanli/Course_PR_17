@@ -7,3 +7,6 @@
 [submodule "students/chengluyu/experiment2"]
 	path = students/chengluyu/experiment2
 	url = git@github.com:chengluyu/naive-digit-recognition.git
+[submodule "students/zhaoyue/experiment2"]
+	path = students/zhaoyue/experiment2
+	url = https://github.com/z-jack/SDU-Pattern-Recognize-Exp2.git
