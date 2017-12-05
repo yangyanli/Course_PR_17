@@ -10,3 +10,21 @@
 [submodule "students/zhaoyue/experiment2"]
 	path = students/zhaoyue/experiment2
 	url = https://github.com/z-jack/SDU-Pattern-Recognize-Exp2.git
+[submodule "students/yeongchingtarn/experiment2/mnist-classifier"]
+	path = students/yeongchingtarn/experiment2/mnist-classifier
+	url = https://github.com/yeongchingtarn/mnist-classifier.git
+[submodule "students/yeongchingtarn/experiment2/mnist-classifier-cnn"]
+	path = students/yeongchingtarn/experiment2/mnist-classifier-cnn
+	url = https://github.com/yeongchingtarn/mnist-classifier-cnn.git
+[submodule "students/yeongchingtarn/experiment2/mnist-autocoder"]
+	path = students/yeongchingtarn/experiment2/mnist-autocoder
+	url = https://github.com/yeongchingtarn/mnist-autocoder.git
+[submodule "students/yeongchingtarn/experiment2/mnist-autodecoder"]
+	path = students/yeongchingtarn/experiment2/mnist-autodecoder
+	url = https://github.com/yeongchingtarn/mnist-autodecoder.git
+[submodule "students/yeongchingtarn/experiment2/k-leftmost-digit-in-captcha-cnn"]
+	path = students/yeongchingtarn/experiment2/k-leftmost-digit-in-captcha-cnn
+	url = https://github.com/yeongchingtarn/k-leftmost-digit-in-captcha-cnn.git
+[submodule "students/yeongchingtarn/experiment2/length-of-digits-in-captcha-cnn"]
+	path = students/yeongchingtarn/experiment2/length-of-digits-in-captcha-cnn
+	url = https://github.com/yeongchingtarn/length-of-digits-in-captcha-cnn.git
