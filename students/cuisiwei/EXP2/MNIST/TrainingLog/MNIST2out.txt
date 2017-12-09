@@ -1,0 +1,26 @@
+Extracting ./MNIST/train-images-idx3-ubyte.gz
+Extracting ./MNIST/train-labels-idx1-ubyte.gz
+Extracting ./MNIST/t10k-images-idx3-ubyte.gz
+Extracting ./MNIST/t10k-labels-idx1-ubyte.gz
+Saving graph to: /tmp/tmpdpnhUP
+Times: 0  Accuracy 0.04
+Times: 100  Accuracy 0.84
+Times: 200  Accuracy 0.8
+Times: 300  Accuracy 0.94
+Times: 400  Accuracy 0.92
+Times: 500  Accuracy 0.92
+Times: 600  Accuracy 0.98
+Times: 700  Accuracy 0.96
+Times: 800  Accuracy 0.96
+Times: 900  Accuracy 0.96
+Times: 1000  Accuracy 0.98
+Times: 1100  Accuracy 0.98
+Times: 1200  Accuracy 0.92
+Times: 1300  Accuracy 0.98
+Times: 1400  Accuracy 0.96
+Times: 1500  Accuracy 0.96
+Times: 1600  Accuracy 0.98
+Times: 1700  Accuracy 0.98
+Times: 1800  Accuracy 0.98
+Times: 1900  Accuracy 0.98
+test accuracy 0.9753

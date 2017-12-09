@@ -58,14 +58,12 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 
 ### Group 1
 
-| 组员   |
-| ---- |
-| 丰叶   |
-| 吴梦涵  |
-| 陈安东  |
-| 崔思伟  |
-| 袁冠宇  |
-| 孔世伟  |
+* 丰叶   
+* 吴梦涵  ([@RebeWu](https://github.com/RebeWu))
+* 陈安东  ([@debuggerchen](https://github.com/debuggerchen))
+* 崔思伟  ([@jncsw](https://github.com/jncsw))
+* 袁冠宇  ([@ygygyg111q](https://github.com/ygygyg111q))
+* 孔世伟  ([@softwinds](https://github.com/softwinds))
 
 ### Group 2
 
