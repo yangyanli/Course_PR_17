@@ -1,0 +1,10 @@
+
+Pattern_Recognization_experiment2
+
+本实验为模式识别课程实验二部分
+
+实验二第一节，识别minst数据集，见train.py, 准确率98.5左右
+
+实验二第二节，识别手写数字，运行recongnize.py准确率92.5
+
+			preproforwrittern 为手写数字的预处理
