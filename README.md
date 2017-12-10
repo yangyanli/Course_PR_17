@@ -38,6 +38,12 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 * [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
 * [Dropout Training as Adaptive Regularization](https://arxiv.org/abs/1307.1493)
 
+### Generative Adversarial Network
+
+* [Generative Adversarial Text to Image Synthesis](https://arxiv.org/abs/1605.05396) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
+* [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1612.03242) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
+* [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
+
 ## Experiments
 
 * [Experiment1](https://github.com/yangyanli/Course_PR_17/tree/master/experiment1) - Clustering
