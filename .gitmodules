@@ -28,3 +28,6 @@
 [submodule "students/yeongchingtarn/experiment2/length-of-digits-in-captcha-cnn"]
 	path = students/yeongchingtarn/experiment2/length-of-digits-in-captcha-cnn
 	url = https://github.com/yeongchingtarn/length-of-digits-in-captcha-cnn.git
+[submodule "students/zhaoyue/experiment3"]
+	path = students/zhaoyue/experiment3
+	url = https://github.com/z-jack/SDU-Pattern-Recognize-Exp3.git
