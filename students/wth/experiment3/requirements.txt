@@ -1,0 +1,4 @@
+numpy
+TensorFlow-gpu
+pillow
+matplotlib
