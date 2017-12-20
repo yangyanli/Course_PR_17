@@ -16,7 +16,7 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 ## Candidate Course Projects
 
 * Generating Image-based CAPTCHAs Resistant to Deep Learning Attacks
-* Expression-based Image Retrivial
+* Expression-based Image Retrivial - [Group 0](#group-0-pow48)
 * Most Promising Image Picking from an Image Sequence
 * Image to Text
 
@@ -40,15 +40,15 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 
 ### Generative Adversarial Network
 
-* [Generative Adversarial Text to Image Synthesis](https://arxiv.org/abs/1605.05396) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
-* [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1612.03242) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
-* [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) - [Group 0](https://github.com/chengluyu/SDU-Pattern-Recognition#group-0-pow48) Dec. 10
+* [Generative Adversarial Text to Image Synthesis](https://arxiv.org/abs/1605.05396) - [Group 0](#group-0-pow48) Dec. 10
+* [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1612.03242) - [Group 0](#group-0-pow48) Dec. 10
+* [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) - [Group 0](#group-0-pow48) Dec. 10
 
 ## Experiments
 
 * [Experiment1](https://github.com/yangyanli/Course_PR_17/tree/master/experiment1) - Clustering
 * [Experiment2](https://github.com/yangyanli/Course_PR_17/tree/master/experiment2) - Classification
-
+* [Experiment3](https://github.com/yangyanli/Course_PR_17/tree/master/experiment3) - Solve MNIST in a non-neural-network or advanced deep learning method.
 
 ## Grouping Information
 
