@@ -1,0 +1,18 @@
+data=imread('data.png');
+data=data(:,:,1);
+[r,c]=size(data);
+fid=fopen('data.txt','w');
+for i=1:r
+for j=1:c
+if data(i,j)<128
+data(i,j)=round(1);
+end
+if data(i,j)>=128
+data(i,j)=round(0);
+end
+end
+end
+fclose(fid);
+dlmwrite('data.txt', data, '');
+clear;
+clc
