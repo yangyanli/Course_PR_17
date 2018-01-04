@@ -288,15 +288,18 @@ def main():
 def KSVM():
     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
     train_X, train_y, test_X, test_y = GetData()
-    pca=PCA(n_components=5)  
+    pca=PCA(n_components=2)  
     train_X=pca.fit_transform(train_X)
     test_X=pca.fit_transform(test_X)
-    clf = svm.SVC(C=11,gamma=0.025)
+    clf = svm.SVC(C=10,gamma=0.025)
     clf.fit(test_X, test_y)
     predictions = clf.predict(test_X)
+    print(predictions)
     num_correct = sum(int(a == y) for a, y in zip(predictions, test_y))
     print("The accuracy is %f "%(num_correct/len(test_y)))
     print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())))
+
+    
 if __name__ == "__main__":
-    main()
+    #main()
     KSVM()
