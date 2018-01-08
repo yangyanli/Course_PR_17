@@ -12,6 +12,15 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 
 [SVM](http://people.csail.mit.edu/dsontag/courses/ml14/slides/lecture2.pdf)
 
+[ICP](www.cs.tau.ac.il/~dcor/Graphics/adv-slides/ICP.ppt)
+
+[Feature Matching and RANSAC](https://people.cs.umass.edu/~elm/Teaching/ppt/370/370_10_RANSAC.pptx.pdf)
+
+Word2Vec: [1](https://cs224d.stanford.edu/lectures/CS224d-Lecture2.pdf) [2](https://cs224d.stanford.edu/lectures/CS224d-Lecture3.pdf)
+
+[GAN](http://dl.ee.cuhk.edu.hk/slides/gan.pdf)
+
+[Siamese](http://vision.ia.ac.cn/zh/senimar/reports/Siamese-Network-Architecture-and-Applications-in-Computer-Vision.pdf)
 
 ## Candidate Course Projects
 
