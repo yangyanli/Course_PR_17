@@ -1,3 +1,5 @@
+以下是每个数字识别的结果，原图片以及切割后的图片在文件中一并提交了，另外由于切割后的图片数量较多无法提交，因此将其放在一起整体截了几张图（分别是1.png,2.png,3.png,4.png,5.png)。
+
 The probability of 0: 0.000391622
 
 The probability of 1: 0.990466
@@ -18,7 +20,7 @@ The probability of 8: 0.00457077
 
 The probability of 9: 4.54648e-05
 
-The result: 1![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+The result: 1
 
 The probability of 0: 4.06941e-05
 
@@ -40,7 +42,7 @@ The probability of 8: 0.0038999
 
 The probability of 9: 0.000221215
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+The result: 1 
 
 The probability of 0: 2.11061e-05
 
@@ -62,7 +64,7 @@ The probability of 8: 0.0107071
 
 The probability of 9: 0.000111827
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+The result: 1
 
 The probability of 0: 4.37054e-05
 
@@ -84,7 +86,7 @@ The probability of 8: 0.000496377
 
 The probability of 9: 0.00417765
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+The result: 3 
 
 The probability of 0: 6.01333e-05
 
@@ -106,7 +108,7 @@ The probability of 8: 0.00108232
 
 The probability of 9: 0.0113672
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png)
+The result: 3 
 
 The probability of 0: 0.000198547
 
@@ -128,7 +130,7 @@ The probability of 8: 0.00349058
 
 The probability of 9: 0.00116818
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+The result: 3 
 
 The probability of 0: 0.0170227
 
@@ -150,7 +152,7 @@ The probability of 8: 0.3869
 
 The probability of 9: 0.000955054
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png)
+The result: 1
 
 The probability of 0: 7.87776e-05
 
@@ -172,7 +174,7 @@ The probability of 8: 0.000722478
 
 The probability of 9: 0.000529283
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png)
+The result: 1
 
 The probability of 0: 6.38282e-05
 
@@ -194,7 +196,7 @@ The probability of 8: 0.0215669
 
 The probability of 9: 0.0996675
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png)
+The result: 3
 
 The probability of 0: 6.85401e-05
 
@@ -216,7 +218,7 @@ The probability of 8: 0.0041856
 
 The probability of 9: 0.0575866
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+The result: 1 
 
 The probability of 0: 4.05575e-05
 
@@ -238,7 +240,7 @@ The probability of 8: 1.61709e-05
 
 The probability of 9: 0.00743709
 
-The result: 7 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png)
+The result: 7 
 
 The probability of 0: 1.806e-05
 
@@ -260,7 +262,7 @@ The probability of 8: 0.000564157
 
 The probability of 9: 0.000440079
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png)
+The result: 3 
 
 The probability of 0: 0.000506248
 
@@ -282,7 +284,7 @@ The probability of 8: 6.56669e-06
 
 The probability of 9: 3.20121e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png)
+The result: 3
 
 The probability of 0: 5.82234e-05
 
@@ -304,7 +306,7 @@ The probability of 8: 0.000281032
 
 The probability of 9: 2.69539e-07
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png)
+The result: 2 
 
 The probability of 0: 0.549841
 
@@ -326,7 +328,7 @@ The probability of 8: 0.000304432
 
 The probability of 9: 2.66061e-06
 
-The result: 0 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image015.png)
+The result: 0 
 
 The probability of 0: 5.21011e-07
 
@@ -348,7 +350,7 @@ The probability of 8: 1.19333e-05
 
 The probability of 9: 3.44823e-09
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png)
+The result: 2 
 
 The probability of 0: 1.21627e-05
 
@@ -370,7 +372,7 @@ The probability of 8: 4.38587e-05
 
 The probability of 9: 0.000356202
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png)
+The result: 2 
 
 The probability of 0: 3.58809e-05
 
@@ -392,7 +394,7 @@ The probability of 8: 0.000724753
 
 The probability of 9: 0.000365489
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png)
+The result: 3 
 
 The probability of 0: 0.0047549
 
@@ -414,7 +416,7 @@ The probability of 8: 0.00192243
 
 The probability of 9: 0.000265564
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image019.png)
+The result: 2 
 
 The probability of 0: 1.83402e-07
 
@@ -436,7 +438,7 @@ The probability of 8: 3.32597e-06
 
 The probability of 9: 5.9275e-07
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png)
+The result: 2 
 
 The probability of 0: 0.000407613
 
@@ -458,7 +460,7 @@ The probability of 8: 6.14596e-05
 
 The probability of 9: 4.30555e-06
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image021.png)
+The result: 3 
 
 The probability of 0: 0.00209924
 
@@ -480,7 +482,7 @@ The probability of 8: 0.000364676
 
 The probability of 9: 0.000230732
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image022.png)
+The result: 3 
 
 The probability of 0: 0.0114508
 
@@ -502,7 +504,7 @@ The probability of 8: 3.9999e-05
 
 The probability of 9: 1.47419e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image023.png)
+The result: 3 
 
 The probability of 0: 0.000156911
 
@@ -524,7 +526,7 @@ The probability of 8: 0.000937423
 
 The probability of 9: 0.000292117
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image024.png)
+The result: 4 
 
 The probability of 0: 1.09892e-05
 
@@ -546,7 +548,7 @@ The probability of 8: 2.70892e-06
 
 The probability of 9: 1.85025e-07
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image025.png)
+The result: 3 
 
 The probability of 0: 0.00230986
 
@@ -568,7 +570,7 @@ The probability of 8: 0.000751304
 
 The probability of 9: 9.21682e-06
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image026.png)
+The result: 3 
 
 The probability of 0: 0.000158121
 
@@ -590,7 +592,7 @@ The probability of 8: 0.000121368
 
 The probability of 9: 4.82899e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image027.png)
+The result: 3 
 
 The probability of 0: 2.17128e-06
 
@@ -612,7 +614,7 @@ The probability of 8: 7.65669e-06
 
 The probability of 9: 2.22018e-07
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image028.png)
+The result: 3 
 
 The probability of 0: 0.00162961
 
@@ -634,7 +636,7 @@ The probability of 8: 0.00147547
 
 The probability of 9: 6.88531e-06
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image029.png)
+The result: 3 
 
 The probability of 0: 1.40631e-05
 
@@ -656,7 +658,7 @@ The probability of 8: 3.1413e-06
 
 The probability of 9: 1.26184e-07
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image030.png)
+The result: 3 
 
 The probability of 0: 0.0100547
 
@@ -678,7 +680,7 @@ The probability of 8: 0.000731005
 
 The probability of 9: 0.000202082
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image031.png)
+The result: 3 
 
 The probability of 0: 2.73174e-05
 
@@ -700,7 +702,7 @@ The probability of 8: 0.00126968
 
 The probability of 9: 0.00790544
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image032.png)
+The result: 4
 
 The probability of 0: 0.000609793
 
@@ -722,7 +724,7 @@ The probability of 8: 0.000315348
 
 The probability of 9: 0.0127968
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image033.png)
+The result: 4 
 
 The probability of 0: 0.000396805
 
@@ -744,7 +746,7 @@ The probability of 8: 0.0024122
 
 The probability of 9: 0.000166818
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image034.png)
+The result: 4 
 
 The probability of 0: 0.00263548
 
@@ -766,7 +768,7 @@ The probability of 8: 0.0183224
 
 The probability of 9: 0.0182698
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image035.png)
+The result: 4 
 
 The probability of 0: 0.000112226
 
@@ -788,7 +790,7 @@ The probability of 8: 0.000120135
 
 The probability of 9: 0.0114111
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image036.png)
+The result: 4 
 
 The probability of 0: 0.000150973
 
@@ -810,7 +812,7 @@ The probability of 8: 0.00868345
 
 The probability of 9: 0.051519
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image037.png)
+The result: 4 
 
 The probability of 0: 2.84234e-05
 
@@ -832,7 +834,7 @@ The probability of 8: 0.000126211
 
 The probability of 9: 0.0178739
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image038.png)
+The result: 4
 
 The probability of 0: 0.000311195
 
@@ -854,7 +856,7 @@ The probability of 8: 0.00125399
 
 The probability of 9: 0.0103066
 
-The result: 4 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image039.png)
+The result: 4 
 
 The probability of 0: 0.000376323
 
@@ -876,7 +878,7 @@ The probability of 8: 0.00684549
 
 The probability of 9: 0.000841661
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image040.png)
+The result: 2 
 
 The probability of 0: 1.40195e-05
 
@@ -898,7 +900,7 @@ The probability of 8: 0.000178273
 
 The probability of 9: 0.689315
 
-The result: 9 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image041.png)
+The result: 9 
 
 The probability of 0: 5.71204e-05
 
@@ -920,7 +922,7 @@ The probability of 8: 0.000356838
 
 The probability of 9: 1.60364e-05
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image042.png)
+The result: 5 
 
 The probability of 0: 2.12597e-06
 
@@ -942,7 +944,7 @@ The probability of 8: 0.00218281
 
 The probability of 9: 0.00140399
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image043.png)
+The result: 5
 
 The probability of 0: 0.00091236
 
@@ -964,7 +966,7 @@ The probability of 8: 0.00219934
 
 The probability of 9: 7.84566e-06
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image044.png)
+The result: 5 
 
 总数：44
 
@@ -992,7 +994,7 @@ The probability of 8: 0.000137845
 
 The probability of 9: 5.6615e-06
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image045.png)
+The result: 5 
 
 The probability of 0: 5.29788e-05
 
@@ -1014,7 +1016,7 @@ The probability of 8: 0.0052769
 
 The probability of 9: 0.00183049
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image046.png)
+The result: 5 
 
 The probability of 0: 0.00474237
 
@@ -1036,7 +1038,7 @@ The probability of 8: 0.0281797
 
 The probability of 9: 0.000188855
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image047.png)
+The result: 5 
 
 The probability of 0: 0.000115263
 
@@ -1058,7 +1060,7 @@ The probability of 8: 0.00307446
 
 The probability of 9: 0.000120578
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image048.png)
+The result: 5 
 
 The probability of 0: 2.75845e-06
 
@@ -1080,7 +1082,7 @@ The probability of 8: 0.00282391
 
 The probability of 9: 7.12989e-05
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image049.png)
+The result: 5 
 
 The probability of 0: 4.47683e-06
 
@@ -1102,7 +1104,7 @@ The probability of 8: 0.000408078
 
 The probability of 9: 2.60937e-06
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image050.png)
+The result: 5 
 
 The probability of 0: 1.25193e-06
 
@@ -1124,7 +1126,7 @@ The probability of 8: 1.72225e-05
 
 The probability of 9: 1.94881e-06
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image051.png)
+The result: 5 
 
 The probability of 0: 0.00129667
 
@@ -1146,7 +1148,7 @@ The probability of 8: 0.000226156
 
 The probability of 9: 0.00012782
 
-The result: 6 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image052.png)
+The result: 6 
 
 The probability of 0: 0.000507924
 
@@ -1168,7 +1170,7 @@ The probability of 8: 0.0807333
 
 The probability of 9: 0.000703964
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image053.png)
+The result: 5 
 
 The probability of 0: 0.00476342
 
@@ -1190,7 +1192,7 @@ The probability of 8: 0.0150744
 
 The probability of 9: 0.000197726
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image054.png)
+The result: 5 
 
 The probability of 0: 0.00123002
 
@@ -1212,7 +1214,7 @@ The probability of 8: 0.00603957
 
 The probability of 9: 1.20219e-05
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image055.png)
+The result: 5 
 
 The probability of 0: 0.582062
 
@@ -1234,7 +1236,7 @@ The probability of 8: 0.0367251
 
 The probability of 9: 0.000737095
 
-The result: 0 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image056.png)
+The result: 0 
 
 The probability of 0: 0.057313
 
@@ -1256,7 +1258,7 @@ The probability of 8: 0.0988937
 
 The probability of 9: 0.00406562
 
-The result: 6 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image057.png)
+The result: 6 
 
 The probability of 0: 0.00391967
 
@@ -1278,7 +1280,7 @@ The probability of 8: 0.0497483
 
 The probability of 9: 0.00010683
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image058.png)
+The result: 5 
 
 The probability of 0: 0.0151131
 
@@ -1300,7 +1302,7 @@ The probability of 8: 0.0152894
 
 The probability of 9: 0.000185704
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image059.png)
+The result: 5 
 
 The probability of 0: 0.0116446
 
@@ -1322,7 +1324,7 @@ The probability of 8: 1.13879e-05
 
 The probability of 9: 2.37311e-05
 
-The result: 6 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image060.png)
+The result: 6
 
 The probability of 0: 0.17642
 
@@ -1344,7 +1346,7 @@ The probability of 8: 0.00577457
 
 The probability of 9: 0.0992312
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image061.png)
+The result: 5
 
 The probability of 0: 0.000184218
 
@@ -1366,7 +1368,7 @@ The probability of 8: 0.00089663
 
 The probability of 9: 0.00302143
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image062.png)
+The result: 3
 
 The probability of 0: 0.22373
 
@@ -1388,7 +1390,7 @@ The probability of 8: 0.00257709
 
 The probability of 9: 0.00194465
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image063.png)
+The result: 3 
 
 The probability of 0: 5.76425e-05
 
@@ -1410,7 +1412,7 @@ The probability of 8: 0.0117439
 
 The probability of 9: 0.00155183
 
-The result: 7 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image064.png)
+The result: 7 
 
 The probability of 0: 3.25041e-07
 
@@ -1432,7 +1434,7 @@ The probability of 8: 2.86837e-07
 
 The probability of 9: 1.73129e-05
 
-The result: 7 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image065.png)
+The result: 7
 
 The probability of 0: 1.11029e-05
 
@@ -1454,7 +1456,7 @@ The probability of 8: 0.000950212
 
 The probability of 9: 0.000503185
 
-The result: 7 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image066.png)
+The result: 7 
 
 The probability of 0: 0.000541403
 
@@ -1476,7 +1478,7 @@ The probability of 8: 0.00339584
 
 The probability of 9: 0.00198538
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image067.png)
+The result: 3 
 
 The probability of 0: 0.0001372
 
@@ -1498,7 +1500,7 @@ The probability of 8: 0.00898352
 
 The probability of 9: 0.000134522
 
-The result: 2 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image068.png)
+The result: 2 
 
 The probability of 0: 3.25383e-05
 
@@ -1520,7 +1522,7 @@ The probability of 8: 0.000622695
 
 The probability of 9: 8.74485e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image069.png)
+The result: 3 
 
 The probability of 0: 2.67565e-05
 
@@ -1542,7 +1544,7 @@ The probability of 8: 0.000302674
 
 The probability of 9: 1.85132e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image070.png)
+The result: 3
 
 The probability of 0: 0.000996679
 
@@ -1564,7 +1566,7 @@ The probability of 8: 0.0418252
 
 The probability of 9: 7.63179e-05
 
-The result: 1 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image071.png)
+The result: 1 
 
 The probability of 0: 1.80446e-05
 
@@ -1586,7 +1588,7 @@ The probability of 8: 0.845089
 
 The probability of 9: 2.90986e-06
 
-The result: 8 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image072.png)
+The result: 8
 
 The probability of 0: 0.000620963
 
@@ -1608,7 +1610,7 @@ The probability of 8: 0.0784152
 
 The probability of 9: 0.887068
 
-The result: 9 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image073.png)
+The result: 9 
 
 The probability of 0: 0.000224125
 
@@ -1630,7 +1632,7 @@ The probability of 8: 0.928232
 
 The probability of 9: 4.33976e-05
 
-The result: 8 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image074.png)
+The result: 8 
 
 The probability of 0: 0.00305653
 
@@ -1652,7 +1654,7 @@ The probability of 8: 0.565899
 
 The probability of 9: 0.000727019
 
-The result: 8 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image075.png)
+The result: 8 
 
 The probability of 0: 5.41508e-06
 
@@ -1674,7 +1676,7 @@ The probability of 8: 0.000691917
 
 The probability of 9: 1.61131e-05
 
-The result: 3 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image076.png)
+The result: 3 
 
 The probability of 0: 0.000900494
 
@@ -1696,7 +1698,7 @@ The probability of 8: 0.783764
 
 The probability of 9: 0.000586209
 
-The result: 8 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image077.png)
+The result: 8 
 
 The probability of 0: 0.33451
 
@@ -1718,7 +1720,7 @@ The probability of 8: 0.325532
 
 The probability of 9: 0.0088214
 
-The result: 0 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image078.png)
+The result: 0 
 
 The probability of 0: 0.000170708
 
@@ -1740,7 +1742,7 @@ The probability of 8: 0.835532
 
 The probability of 9: 0.0019717
 
-The result: 8 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image079.png)
+The result: 8 
 
 The probability of 0: 0.00949602
 
@@ -1762,7 +1764,7 @@ The probability of 8: 0.0884655
 
 The probability of 9: 0.0287666
 
-The result: 5 ![img](file:///C:/Users/朱丽/AppData/Local/Temp/msohtmlclip1/01/clip_image080.png)
+The result: 5 
 
 总数：80
 
