@@ -1,0 +1,12 @@
+step 0, training accuracy 0
+loss2556.09
+step 100, training accuracy 0
+loss667.75
+step 0, training accuracy 0
+loss392.069
+step 0, training accuracy 0.02
+loss1128.27
+step 0, training accuracy 0
+loss1388.91
+step 0, training accuracy 0.175
+loss7.69389
