@@ -12,7 +12,7 @@ Deep Learning: [1](http://yangyan.li/downloads/Deep%20Learning_1.pptx) [2](http:
 
 [SVM](http://people.csail.mit.edu/dsontag/courses/ml14/slides/lecture2.pdf)
 
-[ICP](www.cs.tau.ac.il/~dcor/Graphics/adv-slides/ICP.ppt)
+[ICP](http://www.cs.tau.ac.il/~dcor/Graphics/adv-slides/ICP.ppt)
 
 [Feature Matching and RANSAC](https://people.cs.umass.edu/~elm/Teaching/ppt/370/370_10_RANSAC.pptx.pdf)
 
