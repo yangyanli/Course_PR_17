@@ -1,0 +1,292 @@
+name: "myCapNet"
+layer {
+  name: "data"
+  type: "HDF5Data"
+  top: "data"
+  top: "label"
+  include {
+    phase: TRAIN
+  }
+  hdf5_data_param {
+    source: "/home/gdymind/Desktop/PatternExp2/data/train_h5list.txt"
+    batch_size: 64
+    shuffle: true
+  }
+}
+layer {
+  name: "data"
+  type: "HDF5Data"
+  top: "data"
+  top: "label"
+  include {
+    phase: TEST
+  }
+  hdf5_data_param {
+    source: "/home/gdymind/Desktop/PatternExp2/data/val_h5list.txt"
+    batch_size: 100
+  }
+}
+
+layer {
+  bottom: "data"
+  top: "conv1_1"
+  name: "conv1_1"
+  type: "Convolution"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 48
+    pad: 2
+    stride: 2
+    kernel_size: 5
+    weight_filler {
+        type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+
+layer {
+  bottom: "conv1_1"
+  top: "pool1"
+  name: "pool1"
+  type: "Pooling"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+
+layer {
+  bottom: "pool1"
+  top: "conv2_1"
+  name: "conv2_1"
+  type: "Convolution"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 64
+    pad: 2
+    kernel_size: 5
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  bottom: "conv2_1"
+  top: "pool2"
+  name: "pool2"
+  type: "Pooling"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 1
+  }
+}
+
+layer {
+  bottom: "pool2"
+  top: "conv3_1"
+  name: "conv3_1"
+  type: "Convolution"
+  param {
+    lr_mult: 1
+    decay_mult: 1
+  }
+  param {
+    lr_mult: 2
+    decay_mult: 0
+  }
+  convolution_param {
+    num_output: 128
+    pad: 2
+    kernel_size: 5
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+layer {
+  bottom: "conv3_1"
+  top: "pool3"
+  name: "pool3"
+  type: "Pooling"
+  pooling_param {
+    pool: MAX
+    kernel_size: 2
+    stride: 2
+  }
+}
+
+layer {
+  bottom: "pool3"
+  top: "fc4"
+  name: "fc4"
+  type: "InnerProduct"
+  inner_product_param {
+    num_output: 4096
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+      value: 0
+    }
+  }
+}
+layer {
+  bottom: "fc4"
+  top: "fc4"
+  name: "relu5"
+  type: "ReLU"
+}
+layer {
+    bottom: "fc4"
+    top: "fc4"
+    name: "drop5"
+    type: "Dropout"
+    dropout_param {
+        dropout_ratio: 0.2
+    }
+}
+layer {
+  bottom: "fc4"
+  top: "fc5"
+  name: "fc5"
+  type: "InnerProduct"
+  inner_product_param {
+    num_output: 236
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
+
+layer {
+    name: "slice_data"
+    type: "Slice"
+    bottom: "fc5"
+    top: "prob1"
+    top: "prob2"
+    top: "prob3"
+    top: "prob4"
+
+    slice_param {
+        axis: 1
+    }
+}
+
+layer {
+    name: "slice_label"
+    type: "Slice"
+    bottom: "label"
+    top: "label1"
+    top: "label2"
+    top: "label3"
+    top: "label4"
+    slice_param {
+        axis: 1
+    }
+}
+
+layer {
+    name: "loss1"
+    type: "SoftmaxWithLoss"
+    bottom: "prob1"
+    bottom: "label1"
+    top: "loss1"
+    loss_weight: 0.25
+}
+
+layer {
+  name: "accuracy1"
+  type: "Accuracy"
+  bottom: "prob1"
+  bottom: "label1"
+  top: "accuracy1"
+  include {
+    phase: TEST
+  }
+}
+
+layer {
+    name: "loss2"
+    type: "SoftmaxWithLoss"
+    bottom: "prob2"
+    bottom: "label2"
+    top: "loss2"
+    loss_weight: 0.25
+}
+layer {
+  name: "accuracy2"
+  type: "Accuracy"
+  bottom: "prob2"
+  bottom: "label2"
+  top: "accuracy2"
+  include {
+    phase: TEST
+  }
+}
+
+layer {
+    name: "loss3"
+    type: "SoftmaxWithLoss"
+    bottom: "prob3"
+    bottom: "label3"
+    top: "loss3"
+    loss_weight: 0.25
+}
+layer {
+  name: "accuracy3"
+  type: "Accuracy"
+  bottom: "prob3"
+  bottom: "label3"
+  top: "accuracy3"
+  include {
+    phase: TEST
+  }
+}
+
+layer {
+    name: "loss4"
+    type: "SoftmaxWithLoss"
+    bottom: "prob4"
+    bottom: "label4"
+    top: "loss4"
+    loss_weight: 0.25
+}
+layer {
+  name: "accuracy4"
+  type: "Accuracy"
+  bottom: "prob4"
+  bottom: "label4"
+  top: "accuracy4"
+  include {
+    phase: TEST
+  }
+}

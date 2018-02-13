@@ -1,0 +1,21 @@
+net: "/home/gdymind/Desktop/PatternExp2/model/train.prototxt"#set the model of nerual nework
+test_initialization: false
+test_iter: 7812#test_iter * batch_size == sample_size
+test_interval: 30000#test every 3000 iterations
+
+base_lr: 0.001#initial learning rate
+lr_policy: "inv"#lr = base_lr * (1 + gamma * iter) ^ (- power)
+gamma: 0.0001
+power: 0.75
+
+display: 1#display info on the screen every 1 iteration
+max_iter: 100000#number of iterations
+momentum: 0.9#weights of last
+weight_decay: 0.0005#decay of weight(avoiding overfit)
+
+snapshot: 3000#save the trained model after 3000 iterations
+snapshot_prefix: "/home/gdymind/Desktop/PatternExp2/snapshot/snapshot"
+
+#type: "Adam"#optimation algorithm, the default is SGD
+
+solver_mode: CPU

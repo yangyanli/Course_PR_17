@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<head>
+	<title>CNN visualization</title>
+	<meta charset="UTF-8">
+	<style>
+		body
+		{
+		    background-color:#ffffff;
+		    background-position:top;
+		    background-repeat:repeat-x;
+		}
+		h1
+		{
+			text-align: center;
+			font-size: 60px;
+			font-family: arial;
+			font-weight: 900;
+			color: rgb(0, 100, 150);
+		}
+		#PadTitle
+		{
+			font-size: 40px;
+			font-family: arial;
+			font-weight: 600;
+		}
+		#result
+		{
+			font-size: 40px;
+			font-family: arial;
+			font-weight: 600;
+			position:absolute;
+			left: 2400px;
+		}
+		#result2
+		{
+			font-size: 40px;
+			font-family: arial;
+			font-weight: 600;
+			position:absolute;
+			left: 2400px;
+			top:300px;
+		}
+		#clrButton
+		{
+			position:absolute;
+			left:60px;
+			top:550px;
+			background-color: #555555;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 40px;
+		}
+		#clrButton:active
+		{
+			background-color: #aaaaaa;
+		}
+		#canvasNet
+		{
+			background: rgba(255,255,255,0);
+			position: absolute;
+			left: 200px;
+			z-index: 1;
+		}
+		#canvas2{
+			display:none;
+		}
+	</style>
+</head>
+
+
+<body>
+	<h1>CNN Visualization&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+	<button id="clrButton" onclick = "clearCanvas();"> refresh </button>
+	<canvas id="canvasNet" onmousemove = "changeLine()"  width="2300" height="1300"  ></canvas>
+	<div id="PadTitle">Drawing Pad</div>	<br>
+	<canvas id="canvas2"width=28 height=28 style="background: rgba(255,255,255,0); position: absolute; z-index: 1 "> </canvas>
+	<canvas id="canvas3"width=280 height=280 style="background: rgba(255,255,255,0); position: absolute; z-index: 1 ; border-style:solid;   border-color:block; border-width:7px;"> </canvas>
+	<div id="result">Result:--</div>
+
+	<script src="lib/math.min.js"></script>
+	<script src="lib/sylvester.js"></script>
+	<script src="params	.js"></script>
+
+	<script src="net_calc.js"></script>
+	<script>
+		var center = 1200;
+		var width = 10;
+		var canvas = document.getElementById('canvasNet');
+		var ctx = canvas.getContext('2d');
+		var index = 9133;
+
+		var keep = [[1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1],
+			[1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1],
+			[1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1],
+			[0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1],
+			[0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1],
+			[0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1]];
+
+		var x1 = center-(1/2)*(width*32);
+		var y1 = 900;
+		var size1 = 32;
+		var dis1 = 0;
+
+		var x2 = center-(6/2)*(width*28+50)+25;
+		var y2 = 600;
+		var size2 = 28;
+		var dis2 = 50;
+
+		var x3 = center-(6/2)*(width*14+200)+100;
+		var y3 = 450;
+		var size3 = 14;
+		var dis3 = 200;
+
+		var x4 = center-(16/2)*(width*10+10)+5;
+		var y4 = 300;
+		var size4 = 10;
+		var dis4 = 10;
+
+
+		var x5 = center-(16/2)*(width*5+50)+25;
+		var y5 = 200;
+		var size5 = 5;
+		var dis5 = 50;
+
+		var x6 = center-(120/2)*(width*1+2)+1;
+		var y6 = 150;
+		var size6 = 1;
+		var dis6 = 2;
+
+		var x7 = center-(100/2)*(width*1+2)+1;
+		var y7 = 100;
+		var size7 = 1;
+		var dis7 = 2;
+
+		var x8 = center-(10/2)*(width*1+2)+1;
+		var y8 = 50;
+		var size8 = 1;
+		var dis8 = 2;
+
+		var LX = [0,x1,x2,x3,x4,x5,x6,x7,x8];
+		var LY = [0,y1,y2,y3,y4,y5,y6,y7,y8];
+		var SIZE = [0,size1,size2,size3,size4,size5,size6,size7,size8];
+		var N = [0,1,6,6,16,16,120,100,10];
+		var DIS = [0,dis1,dis2,dis3,dis4,dis5,dis6,dis7,dis8];
+
+		drawCNN();
+
+		function changeLine()
+		{
+			var canvas = document.getElementById('canvasNet');
+			var rect = canvas.getBoundingClientRect();
+			var e = e||window.event;
+			var x = e.clientX - rect.left * (canvas.width / rect.width);
+			var y = e.clientY - rect.top * (canvas.height / rect.height);
+			var s = center*2;
+			var num = 0;
+			var shouldDrawLine = false;
+
+			for(var i=2;i<=8;i++)
+			{
+
+				if(x>=LX[i] && x<=s-LX[i] && y>=LY[i] && y<=LY[i]+SIZE[i]*width)
+				{
+					num = i;
+					for(var j=1;j<=N[i];j++)
+					{
+						var tx = LX[i]+(j-1)*(SIZE[i]*width+DIS[i]);
+						var ty = LY[i];
+						if(x>=tx&&x<=tx+SIZE[i]*width)
+						{
+							shouldDrawLine = true;
+							drawCNN();
+							tx = Math.ceil((x-tx)/width);
+							ty = Math.ceil((y-ty)/width);
+							if(num==2) drawLayer2Line(j,tx,ty);
+							else if(num==3) drawLayer3Line(j,tx,ty);
+							else if(num==4) drawLayer4Line(j,tx,ty);
+							else if(num==5) drawLayer5Line(j,tx,ty);
+							else if(num==6) drawLayer6Line(j,tx,ty);
+							else if(num==7) drawLayer7Line(j,tx,ty);
+							else if(num==8) drawLayer8Line(j,tx,ty);
+							break;
+						}
+					}
+					break;
+				}
+			}
+
+			if(!shouldDrawLine) drawCNN();
+		 }
+
+		function drawCNN()
+		{
+			var canvas = document.getElementById('canvasNet');
+			var ctx = canvas.getContext('2d');
+			ctx.clearRect(0,0,canvas.width,canvas.height); 
+			creatPaint();
+			index = 0;
+
+			drawLayer(32,center-(1/2)*(width*32),900,1,50,1);
+			drawLayer(28,center-(6/2)*(width*28+50)+25,600,6,50,2);
+			drawLayer(14,center-(6/2)*(width*14+200)+100,450,6,200,3);
+			drawLayer(10,center-(16/2)*(width*10+10)+5,300,16,10,4);
+			drawLayer(5,center-(16/2)*(width*5+50)+25,200,16,50,5);
+			drawLayer(1,center-(120/2)*(width*1+2)+1,150,120,2,6);
+			drawLayer(1,center-(100/2)*(width*1+2)+1,100,100,2,7);
+			drawLayer(1,center-(10/2)*(width*1+2)+1,50,10,2,8);
+		}
+
+		function drawLayer2Line(num,x,y)
+		{
+			var stx = x2+(num-1)*(size2*width+dis2)+(x-0.5)*width;
+			var sty = y2+(y-0.5)*width;
+			for(var i=0;i<5;i++)
+			{
+				for(var j=0;j<5;j++)
+				{
+					ctx.strokeStyle = getColor(normWhtConv1[num-1][i][j]);
+					var edx = x1+(x+i-0.5)*width;
+					var edy = y1+(y+j-0.5)*width;
+					drawLine(stx,sty,edx,edy);
+				}
+			}
+		}
+
+		function drawLayer3Line(num,x,y)
+		{
+			var stx = x3+(num-1)*(size3*width+dis3)+(x-0.5)*width;
+			var sty = y3+(y-0.5)*width;
+			for(var i=0;i<2;i++)
+			{
+				for(var j=0;j<2;j++)
+				{
+					ctx.strokeStyle = "#00FFFF";
+					var edx = x2+(num-1)*(size2*width+dis2)+(x*2-1+i-0.5)*width;
+					var edy = y2+(y*2-1+j-0.5)*width;
+					drawLine(stx,sty,edx,edy);
+				}
+			}
+	  	}
+
+		function drawLayer4Line(num,x,y)
+		{
+			var stx = x4+(num-1)*(size4*width+dis4)+(x-0.5)*width;
+			var sty = y4+(y-0.5)*width;
+			for(var m=0;m<6;m++)
+			{
+				var num2 = keep[m][num-1];
+				if(num2==1)
+				{
+					for(var i=0;i<5;i++)
+					{
+						for(var j=0;j<5;j++)
+						{
+							ctx.strokeStyle = getColor(normWhtConv2[num-1][m][i][j]);
+							var edx = x3+(m+1-1)*(size3*width+dis3)+(x+i-0.5)*width;
+							var edy = y3+(y+j-0.5)*width;
+							drawLine(stx,sty,edx,edy);
+						}
+					}
+				}
+			}
+		}
+
+		function drawLayer5Line(num,x,y)
+		{
+			var stx = x5+(num-1)*(size5*width+dis5)+(x-0.5)*width;
+			var sty = y5+(y-0.5)*width;
+			for(var i=0;i<2;i++)
+			{
+				for(var j=0;j<2;j++)
+				{
+					ctx.strokeStyle = "#00FFFF";
+					var edx = x4+(num-1)*(size4*width+dis4)+(x*2-1+i-0.5)*width;
+					var edy = y4+(y*2-1+j-0.5)*width;
+					drawLine(stx,sty,edx,edy);
+				}
+			}
+		}
+
+		function drawLayer6Line(num,x,y)
+		{
+			var stx = x6+(num-1)*(size6*width+dis6)+(x-0.5)*width;
+			var sty = y6+(y-0.5)*width;
+			var tmp = 0;
+			for(var m=0;m<16;m++)
+			{
+				for(var i=0;i<5;i++)
+				{
+					for(var j=0;j<5;j++)
+					{
+						ctx.strokeStyle = getColor(normWhtFc1[num-1][tmp]);
+						tmp = tmp+1;
+						var edx = x5+(m+1-1)*(size5*width+dis5)+(x+i-0.5)*width;
+						var edy = y5+(y+j-0.5)*width;
+						drawLine(stx,sty,edx,edy);
+					}
+				}
+			}
+		}
+
+		function drawLayer7Line(num,x,y)
+		{
+			var stx = x7+(num-1)*(size7*width+dis7)+(x-0.5)*width;
+			var sty = y7+(y-0.5)*width;
+			for(var m=0;m<120;m++)
+			{
+				ctx.strokeStyle = getColor(normWhtFc2[num-1][m]);
+				for(var i=0;i<1;i++)
+				{
+					for(var j=0;j<1;j++)
+					{
+						var edx = x6+(m+1-1)*(size6*width+dis6)+(x+i-0.5)*width;
+						var edy = y6+(y+j-0.5)*width;
+						drawLine(stx,sty,edx,edy);
+					}
+				}
+			}
+		}
+
+		function drawLayer8Line(num,x,y)
+		{
+			var stx = x8+(num-1)*(size8*width+dis8)+(x-0.5)*width;
+			var sty = y8+(y-0.5)*width;
+			for(var m=0;m<100;m++)
+			{
+				ctx.strokeStyle = getColor(normWhtOut[num-1][m]);
+				if(num==1)
+				{
+					console.log(whtOut[num-1][m]);
+				}
+				for(var i=0;i<1;i++)
+				{
+					for(var j=0;j<1;j++)
+					{
+						var edx = x7+(m+1-1)*(size7*width+dis7)+(x+i-0.5)*width;
+						var edy = y7+(y+j-0.5)*width;
+						drawLine(stx,sty,edx,edy);
+					}
+				}
+			}
+		}
+
+		function getColor(v)
+		{
+			v = 8 * v - 4;
+			v = 1/(1 + Math.exp(-1.3*v));
+			var color = math.floor(v*255);
+			return "rgb("+math.floor(color*0.1)+","+math.floor(color*0.9)+","+math.floor(color*0.9)+")";
+		}
+
+		function drawShape(size,x,y,layer,number)
+		{
+			// get the canvas element using the DOM
+			var canvas = document.getElementById('canvasNet');
+			var ctx = canvas.getContext('2d');
+			  if(layer==1)
+			  {
+				  for(var i=0;i<size;i++)
+				  {
+					for(var j=0;j<size;j++)
+					{
+						 ctx.fillStyle=getColor(input[i][j]);
+						 ctx.fillRect(x+j*(width),y+i*(width),width-2,width-2);
+					}
+				  }
+			  }
+			  else if(layer>=2&&layer<=5)
+			  {
+					  for(var i=0;i<size;i++)
+					  {
+						for(var j=0;j<size;j++)
+						{
+							ctx.fillStyle=getColor(allOut[layer-2][number][i][j]);
+							ctx.fillRect(x+j*(width),y+i*(width),width-2,width-2);
+						}
+					  }
+			  }
+			  else if(layer>=6&&layer<=8)
+			  {
+				   for(var i=0;i<size;i++)
+					  {
+						for(var j=0;j<size;j++)
+						{
+							ctx.fillStyle=getColor(allOut[layer-2][number]);
+							ctx.fillRect(x+j*(width),y+i*(width),width-2,width-2);
+						}
+					  }
+			  }
+		}
+
+		function drawLayer(size,x,y,num,dis,layer)
+		{
+			for(var i=0;i<num;i++)
+				drawShape(size,x+i*dis+i*size*width,y,layer,i);
+		}
+
+		function drawLine(x1,y1,x2,y2)
+		{
+			ctx.lineCap='round';
+			ctx.lineWidth=1;
+			ctx.beginPath();
+			ctx.moveTo(x1,y1);
+			ctx.lineTo(x2,y2);
+			ctx.stroke();
+			ctx.closePath();
+		}
+
+		function creatPaint()
+		{
+			var canvasWidth=280,canvasHeight=280;
+			var canvas = document.getElementById('canvas3');
+			var ctx = canvas.getContext('2d');
+			//ctx.strokeRect(0,0,canvasWidth,canvasHeight)
+			window.onload=mouseDraw();
+		}
+
+		function mouseDraw()
+		{
+			var canvas = document.getElementById('canvas3');
+			var ctx = canvas.getContext('2d');
+			canvas.onmousedown = function(event)
+			{
+				var event = event || window.event;
+				ctx.moveTo(event.clientX-canvas.offsetLeft,event.clientY-canvas.offsetTop);
+				//ev.clientX-oC.offsetLeft,ev.clientY-oC.offsetTop鼠标在当前画布上X,Y坐标
+				document.onmousemove = function(event)
+				{
+					var event = event || window.event;//获取event对象
+					ctx.lineCap='round';
+					ctx.lineWidth=20;
+					ctx.lineTo(event.clientX-canvas.offsetLeft,event.clientY-canvas.offsetTop);
+					ctx.stroke();
+					ctx.lineCap='round';
+					ctx.lineWidth=1;
+		        };
+		    	canvas.onmouseup = function()
+		    	{
+			        document.onmousemove = null;
+			        document.onmouseup = null;
+					sample();
+					forwardProp();
+					drawCNN();
+					setNum();
+				};
+			};
+		};
+		function setNum()
+		{
+			var tmp = 0;
+			var res = 0;
+			for(var i=0;i<10;i++)
+			{
+				if(tmp<allOut[6][i])
+				{
+					tmp = allOut[6][i];
+					res = i;
+				}
+			}
+			document.getElementById('result').innerHTML= "Result:&nbsp&nbsp"+res;
+		}
+
+		function sample(imageData)
+		{
+			var canvas2 = document.getElementById('canvas2');
+			var ctx2=canvas2.getContext('2d');
+			ctx2.strokeRect(0,0,28,28);
+			var canvas = document.getElementById('canvas3');
+			var ctx = canvas.getContext('2d');
+			var img=ctx2.createImageData(28,28);
+			var myImageData = ctx.getImageData(0, 0, 280, 280);
+			var sdata=myImageData.data
+			var ddata=img.data;
+
+			for(i=0;i<28;i++)
+			{
+				for(j=0;j<28;j++)
+				{
+					ddata[4*(i*28+j)]=sdata[4*(i*10*280+j*10)]
+					ddata[4*(i*28+j)+1]=sdata[4*(i*10*280+j*10)+1]
+					ddata[4*(i*28+j)+2]=sdata[4*(i*10*280+j*10)+2]
+					ddata[4*(i*28+j)+3]=sdata[4*(i*10*280+j*10)+3]
+				}
+			}
+			ctx2.putImageData(img,0,0);
+		}
+
+		function clearCanvas()
+		{
+			var cnavas3=document.getElementById("canvas3");
+			var canvas2=document.getElementById("canvas2");
+			canvas2.width=28;
+			canvas3.width=280;
+			//ctx.strokeRect(0,0,canvasWidth,canvasHeight)
+			sample();
+			hasStarted=false;
+			forwardProp();
+			drawCNN();
+			document.getElementById('result').innerHTML= "Result:--";
+		}
+    </script>
+</body>
+</html>
